@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>한세inDreamHome</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div style="width: 1920px;">
+    <div>
+      <a id="logo1" href="http://127.0.0.1:5500/home.html"><img src="./images/logo.png" width="180" height="100" /></a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg" id="menu">
+      <div class="container-fluid">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown" id="li1">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              한세in
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdown1">
+              <li><a class="dropdown-item" href="#">전공in</a></li>
+              <li><a class="dropdown-item" href="#">교양in</a></li>
+              <li><a class="dropdown-item" href="#">학교in</a></li>
+              <li><a class="dropdown-item" href="#">자유in</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="li2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              게시판
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdown2">
+              <li><a class="dropdown-item" href="#">자유게시판</a></li>
+              <li><a class="dropdown-item" href="#">건의게시판</a></li>
+              <li><a class="dropdown-item" href="#">동아리 게시판</a></li>
+              <li><a class="dropdown-item" href="#">공모전 게시판</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="li3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              우리 친해져요!
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdown3">
+              <li><a class="dropdown-item" href="#">동아리 친구</a></li>
+              <li><a class="dropdown-item" href="#">운동 친구</a></li>
+              <li><a class="dropdown-item" href="#">밥 친구</a></li>
+              <li><a class="dropdown-item" href="#">게임 친구</a></li>
+              <li><a class="dropdown-item" href="#">취미 소통</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="li4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              과목토론장
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdown4">
+              <li><a class="dropdown-item" href="#">교양토론</a></li>
+              <li><a class="dropdown-item" href="#">전공토론</a></li>
+              <li><a class="dropdown-item" href="#">일상토론</a></li>
+              <li><a class="dropdown-item" href="#">MBTI토론</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+      <button type="button" class="btn btn-outline-info" id="b8" onclick='HanseiMain();'>
+        한세대학교 메인홈
+      </button>
+      <button type="button" class="btn btn-outline-info" id="b9" onclick='HanseiPortal();'>
+        한세대학교 포탈
+      </button>
+    </div>
+  </div>
+
+  <hr style="clear:both;">
+
+  <div style="width:1920px;">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/contest1.jpg" height="360" class="d-block w-100" alt="1" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/contest2.jpg" height="360" class="d-block w-100" alt="2" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/contest3.jpg" height="360" class="d-block w-100" alt="3" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/contest4.jpg" height="360" class="d-block w-100" alt="4" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/contest5.jpg" height="360" class="d-block w-100" alt="5" id="pic1">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <p style="text-align: center; font-weight: bold;"><br>공모전 모집!</p>
+    </div>
+
+    <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/club1.jpg" height="360" class="d-block w-100" alt="1" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/club2.jpg" height="360" class="d-block w-100" alt="2" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/club3.jpg" height="360" class="d-block w-100" alt="3" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/club4.jpg" height="360" class="d-block w-100" alt="4" id="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/club5.jpg" height="360" class="d-block w-100" alt="5" id="pic1">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <p style="text-align: center; font-weight: bold;"><br>동아리 모집!</p>
+    </div>
+
+    <div id="privateINF">
+      <div style="float:left;">
+        <p style="margin-left: 20pt; margin-top: 50pt; font-size:large;">박종혁님 안녕하세요</p>
+        <p style="margin-left: 20pt; font-size:large;">202010102/ICT융합학과</p>
+      </div>
+      <div style="float:left;">
+
+      </div>
+      <div style="clear:both; margin-left:20pt;">
+        <button type="button" class="btn btn-outline-success" id="b11">개인정보 변경</button>
+        <button type="button" class="btn btn-outline-success" id="b12"
+          onclick="alert('정상적으로 로그아웃 되었습니다!');(location.href='main.html');" )>로그아웃</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="width:1920px;">
+    <div class="card" id="foodmenu">
+      <div class="card-body">
+        <p style="text-align: center; font-weight: bold;">오늘의 급식</p>
+        <hr>
+        <ul>
+          <li>
+            잡곡밥
+          </li>
+          <li>
+            미역국
+          </li>
+          <li>
+            배추김치
+          </li>
+          <li>
+            케이준샐러드
+          </li>
+          <li>
+            소세지야채볶음
+          </li>
+          <li>
+            망고
+          </li>
+        </ul>
+        <hr>
+        <button type="button" class="btn btn-outline-primary" id="b10"></button>
+      </div>
+    </div>
+
+
+    <div class="list-group" id="friend">
+      <a href="#" class="list-group-item list-group-item-action active">
+        <p style="text-align: center; font-weight: bold;">우리 친해져요!</p>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">- MBTI</a>
+      <a href="#" class="list-group-item list-group-item-action">- 점심 친구</a>
+      <a href="#" class="list-group-item list-group-item-action">- 저녁 친구</a>
+      <a href="#" class="list-group-item list-group-item-action">- 지역 친구</a>
+      <a href="#" class="list-group-item list-group-item-action">- 운동 친구</a>
+      <a href="#" class="list-group-item list-group-item-action">- 게임 친구</a>
+    </div>
+
+    <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./images/champ.png" class="d-block w-100" alt="champ" id="pic1">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/examine.png" class="d-block w-100" alt="examine" id="pic1">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="./onclick.js"></script>
+</body>
+
+</html>

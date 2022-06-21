@@ -1,0 +1,319 @@
+#logo {
+  margin-left: 250px;
+}
+
+#logo1{
+    float:left;
+    margin-top:5pt;
+    margin-left:50px;
+}
+
+#hansei-logo{
+  margin-top:90pt;
+  margin-left:35pt;
+}
+
+#b1 {
+  margin-left: 800px;
+}
+
+#b2 {
+  margin-left: 30px;
+}
+
+#b3 {
+  float:left;
+  margin-left: 15pt;
+  width: 110pt;
+  height: 63pt;
+}
+#b4 {
+  float:left;
+  margin-left:10pt;
+  margin-top:10pt;
+}
+#b5 {
+  float:left;
+  margin-left:20pt;
+  width: 50pt;
+
+}
+#b6 {
+  margin-top:90pt;
+  margin-left: 350pt;
+  width:100pt;
+}
+
+#b7 {
+  margin-top:90pt;
+  margin-left: 10pt;
+  width:100pt;
+}
+
+#b8 {
+    float:left;
+    margin-left: 60pt;
+    margin-top: 20pt;
+    width:120pt;
+}
+
+#b9 {
+  float:left;
+    margin-left:30pt;
+    margin-top: 20pt;
+ } 
+#b10{
+  margin-left:90px;
+}
+#b11{
+  margin-top:30pt;
+  width:150px;
+  height:40px;
+}
+#b12{
+  margin-left: 10pt;
+  margin-top:30pt;
+  width:150px;
+  height:40px;
+}
+
+
+#carouselExampleDark {
+
+  float: left;
+  margin-left:250px;
+  margin-bottom: 10px;
+
+  width: 950px;
+  height: 760px;
+  border-style: groove;
+}
+
+#carouselExampleFade{
+  clear: both;
+  float: left;
+  margin-left: 150px;
+  margin-top:20pt;
+  margin-bottom: 50px;
+
+  width: 250px;
+  height: 430px;
+  border-style: groove;
+  border-radius:15pt;
+}
+
+#carouselExampleFade1{
+  float: left;
+  margin-left: 300px;
+  margin-top:20pt;
+  margin-bottom: 50px;
+
+  width: 250px;
+  height: 430px;
+  border-style: groove;
+  border-radius:15pt;
+}
+
+#carouselExampleDark2{
+  float: left;
+  margin-left: 200px;
+  margin-top: 170px;
+
+  width: 500px;
+  height:150px;
+  border-style: groove;
+  border-radius:15pt;
+}
+
+#pic1{
+  border-radius:15pt;
+  border-bottom:solid;
+}
+
+
+
+#login {
+  margin-top:70pt;
+  padding-right: 10pt;
+  margin-left:40pt;
+  font-size: 30pt;
+  border-right: solid;
+}
+
+
+#logo-join {
+  margin-left: 200pt;
+  margin-top: 30pt;
+}
+
+#motto1 {
+  margin-top: 70pt;
+  margin-left:10pt;
+  font-size: 20pt;
+  font-style: oblique;
+}
+
+
+#id-password {
+  margin-left:50pt;
+  width: 250pt;
+  font-size: 13pt;
+}
+
+
+#idpwnamenum {
+  float:left;
+  margin-left: 200pt;
+  margin-top: 40pt;
+  width: 250pt;
+}
+
+#hobbygoodbadmbti {
+  clear:both;
+  float:left;
+  margin-left: 200pt;
+  margin-top: 20pt;
+  width: 250pt;
+}
+
+#selectbox1 {
+  float:left;
+  margin-left:18pt;
+  margin-top:10pt;
+  width: 205pt;
+  
+}
+
+#selectbox2 {
+  float:left;
+  margin-left:18pt;
+  margin-top:16pt;
+  width: 205pt;
+ 
+}
+
+#grade {
+  clear:both;
+  float:left;
+  margin-left: 200pt;
+  margin-top: 15pt;
+}
+
+#major {
+  clear: both;
+  float:left;
+  margin-left: 200pt;
+  margin-top: 21pt;
+}
+
+#uploadPic {
+  float:left;
+ 
+  margin-left:60pt;
+  margin-top:200pt;
+  width: 500pt;
+}
+#inputEmail {
+  clear: both;
+  float:left;
+  margin-left:100pt;
+  margin-top:10pt;
+  width: 450pt;
+}
+
+#inputGmail {
+  margin-top:10pt;
+  width: 200pt;
+}
+
+#inputCertipynum {
+  
+  width: 100pt;
+}
+
+#gmail{
+  
+  float:left;
+  width:150pt;
+  margin-left:135pt;
+  margin-top: 15pt;
+}
+
+#menu {
+  float:left;
+  width: 800pt;
+  margin-top:10pt;
+  margin-left: 80pt;
+  font-size:15pt;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#navbarDropdown1{
+    margin-left: 50pt;
+    margin-right:50pt;
+}
+
+#navbarDropdown2{
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
+
+#navbarDropdown3{
+    margin-left:50pt;
+    margin-right: 50pt;
+}
+
+
+#navbarDropdown4{
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
+
+#li1{
+    border-left-style:outset;
+}
+#li2{
+    border-left-style:outset;
+}
+#li3{
+    border-left-style:outset;
+}
+#li4{
+    border-left-style:outset;
+    border-right-style:inset;
+}
+
+#foodmenu{
+  clear:both;
+  float:left;
+  width: 250px;
+  height: 300px;
+  margin-top:10pt;
+  margin-left:150px;
+  border-radius: 15pt;
+}
+#friend{
+  float:left;
+  width: 250px;
+  height: 300px;
+  margin-top:10pt;
+  margin-left:300px;
+  border-radius: 15pt;
+  
+}
+
+#privateINF{
+  float:left;
+  font-family: inherit;
+  font-weight: bolder;
+  border-top-color:skyblue;
+  width:400px;
+  height:300px;
+  margin-left:300px;
+  margin-top:155px;
+  border-style:groove;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}

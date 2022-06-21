@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>한세inDream</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div id="logo-plus-button" style=" width: 1920px;">
+
+    <a id="logo" href="http://127.0.0.1:5500/main.html"><img src="./images/logo.png" width="180" height="100" /></a>
+    <button type="button" class="btn btn-secondary" id="b1" onclick='HanseiMain();'>
+      한세대학교 메인홈
+    </button>
+    <button type="button" class="btn btn-secondary" id="b2" onclick='HanseiPortal();'>
+      한세대학교 포탈
+    </button>
+  </div>
+  <hr style="width:70%; margin-left:250px;"><br>
+
+
+  <div style="width: 1920px;">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/major1.png" class="d-block w-100" alt="major1" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major2.png" class="d-block w-100" alt="major2" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major3.png" class="d-block w-100" alt="major3" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major4.png" class="d-block w-100" alt="major4" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major5.png" class="d-block w-100" alt="major5" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major6.png" class="d-block w-100" alt="major6" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major7.png" class="d-block w-100" alt="major7" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/major8.png" class="d-block w-100" alt="major8" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div style="float:left;">
+      <div style="float:left;">
+        <p id="login">LOGIN</p>
+      </div>
+      <div style="float:left;">
+        <p id="motto1">New Dream,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Hansei</p>
+      </div>
+
+      <div id="id-password">
+        <form>
+          <div class="row mb-3">
+            <label for="inputID" class="col-sm-2 col-form-label">ID:</label>
+            <div class="col-sm-10">
+              <input type="ID" class="form-control" id="inputID" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword" class="col-sm-2 col-form-label">P/W:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword" />
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6" style="float:left;">
+            <button class="btn btn-primary" type="button">ID/PW 찾기</button>
+            <button class="btn btn-primary" type="button" onclick="JoinHansei()">회원가입</button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-primary" id="b3" onclick="GoHome()">
+              LOGIN
+            </button>
+          </div>
+        </form>
+      </div>
+      <p id="hansei-logo"><img src="./images/hansei_logo.png" width="350" /></p>
+    </div>
+  </div>
+  <hr style="width:70%; margin-left:250px;">
+
+  <script src="./onclick.js"></script>
+</body>
+
+</html>
